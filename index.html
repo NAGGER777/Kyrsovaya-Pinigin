@@ -150,7 +150,7 @@ document.getElementById('fileInput').addEventListener('change', function(e) {
             const text = e.target.result;
             parseCSV(text);
         };
-        reader.readAsText(file, 'UTF-8');
+        reader.readAsText(file, 'windows-1251');
     }
 });
 
